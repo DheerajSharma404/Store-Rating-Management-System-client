@@ -1,8 +1,8 @@
 import axios from "axios";
-const baseURL = "http://localhost:3000/api/v1/rating";
+const baseURL =
+  "https://store-rating-management-system-server.onrender.com/api/v1/rating";
 
 export const createRating = async ({ rating }) => {
-  console.log("jellow");
   try {
     const reqURL = `${baseURL}/create-rating/6687418db131a4dcca86a0b5`;
     const token = localStorage.getItem("x-access-token");

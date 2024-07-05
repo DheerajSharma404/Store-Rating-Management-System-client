@@ -1,5 +1,6 @@
 import axios from "axios";
-const baseURL = "http://localhost:3000/api/v1/user";
+const baseURL =
+  "https://store-rating-management-system-server.onrender.com/api/v1/user";
 
 export const signUpUser = async ({ name, email, address, password }) => {
   try {
